@@ -3,5 +3,5 @@ builder = "dockerfile"
 
 [deploy]
 startCommand = "n8n start"
-healthcheckPath = "/"
+healthcheckPath = "/healthz"  
 restartPolicyType = "always"
